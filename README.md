@@ -50,7 +50,7 @@ src/
 
 ## Architecture Decisions
 
-- **Stack Navigator Only** — React Navigation v6 `@react-navigation/stack` as required. No tabs or drawer.
+- **Stack Navigator and Tab Navigator** — React Navigation v6 `@react-navigation/stack` .
 - **Config-driven UI** — `dashboardConfig.ts` drives which sections each role sees. Dashboard sections render based on `roles` and `type` fields.
 - **Session persistence** — `AsyncStorage` stores user JSON on login, restored on app launch. Onboarding shown once (`@mentora_onboarding_done`).
 - **Role-based navigation** — `AppNavigator` renders a completely different screen stack depending on `user.role`.
