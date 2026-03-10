@@ -1,0 +1,60 @@
+export const theme = {
+  colors: {
+    primary: '#6C63FF',
+    secondary: '#F5A623',
+    background: '#F8F9FE',
+    surface: '#FFFFFF',
+    text: {
+      primary: '#1A1A2E',
+      secondary: '#6B7280',
+      light: '#9CA3AF',
+    },
+    success: '#10B981',
+    error: '#EF4444',
+    warning: '#F59E0B',
+    roles: {
+      parent: '#6C63FF',
+      student: '#10B981',
+      mentor: '#F5A623',
+    },
+    onboarding: ['#EEF2FF', '#F0FDF4', '#FFF7ED'],
+    border: '#E5E7EB',
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+  },
+  borderRadius: {
+    sm: 8,
+    md: 12,
+    lg: 16,
+    full: 999,
+  },
+  fontSize: {
+    xs: 11,
+    sm: 13,
+    md: 15,
+    lg: 18,
+    xl: 22,
+    xxl: 28,
+  },
+  shadow: {
+    small: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 1 },
+      shadowOpacity: 0.05,
+      shadowRadius: 4,
+      elevation: 2,
+    },
+    medium: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.08,
+      shadowRadius: 8,
+      elevation: 4,
+    },
+  },
+};
